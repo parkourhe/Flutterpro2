@@ -19,7 +19,7 @@ void getHttp()async{
     try{
       Response response;
       response = await Dio().get(
-        "https://www.easy-mock.com/mock/5c60131a4bed3a6342711498/baixing/dabaojian?name=大胸美女",
+        "http://39.97.33.178/api/movieOnInfoList?cityId=10",
         //  queryParameters:data
       );
       return print(response);
